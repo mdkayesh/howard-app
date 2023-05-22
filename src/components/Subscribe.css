@@ -1,0 +1,84 @@
+div.subscribe {
+    padding: 100px 0;
+}
+
+div.subscribe .news-letter {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+    padding: 50px;
+    position: relative;
+    background-color: white;
+    margin-top: -180px;
+}
+
+div.subscribe .news-letter h2 {
+    margin-bottom: 30px;
+    color: #0b0801;
+}
+
+div.subscribe .news-letter .input-box {
+    max-width: 600px;
+    margin: auto;
+    padding: 3px;
+    position: relative;
+}
+
+div.subscribe .news-letter .input-box input {
+    padding: 0 148px 0 50px;
+    width: 100%;
+    outline: none;
+    flex-basis: 80%;
+    font-size: 16px;
+    height: 50px;
+    border: 1px solid #e5e7ea;
+    border-radius: 4px;
+}
+
+div.subscribe .icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #001232;
+}
+
+div.subscribe .button {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0b0801;
+}
+
+@media only screen and (max-width:572px) {
+
+    div.subscribe .news-letter .input-box input {
+        padding: 0 28px 0 50px;
+    }
+
+    div.subscribe .button {
+        position: static;
+        top: inherit;
+        right: 0;
+        margin-top: 22px;
+        transform: inherit;
+    }
+
+    div.subscribe .icon {
+        top: 15%;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    div.subscribe .news-letter .input-box {
+        width: 100%;
+    }
+
+    div.subscribe .news-letter {
+        padding: 50px 30px;
+    }
+}

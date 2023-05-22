@@ -1,0 +1,29 @@
+div.pagenation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+div.pagenation ul li a {
+    display: block;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 22px;
+    color: #9f9f9f;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+div.pagenation ul li a.active {
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+    color: black;
+}
+
+@media only screen and (max-width:768px) {
+    div.pagenation ul li a {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+}

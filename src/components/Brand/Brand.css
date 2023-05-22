@@ -1,0 +1,14 @@
+section.brand {
+    background: url(./img/brandbg.jpg);
+    background-repeat: no-repeat;
+}
+
+section.brand .content h1 {
+    color: white;
+}
+
+section.brand .content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #e6e6e6;
+}

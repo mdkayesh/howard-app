@@ -1,0 +1,9 @@
+section.about {
+    padding: 100px 0;
+}
+
+section.about h1 {
+    text-transform: capitalize;
+    margin-bottom: 28px;
+    color: #1855B7;
+}

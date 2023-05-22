@@ -1,0 +1,13 @@
+section.software {
+    background: url(./homeImg/bg3.jpg);
+    background-repeat: no-repeat;
+}
+
+section.software .content h1 {
+    color: #e6e6e6;
+    margin-bottom: 40px;
+}
+
+section.software .content p {
+    color: #e6e6e6;
+}

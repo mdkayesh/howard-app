@@ -1,0 +1,8 @@
+section.progress {
+    background: var(--bg-color-4);
+    height: min-content;
+}
+
+section.progress h3 {
+    color: white;
+}

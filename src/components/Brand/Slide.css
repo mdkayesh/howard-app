@@ -1,0 +1,24 @@
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-slide img {
+    transition: 0.5s;
+}
+
+.swiper-slide img:hover {
+    opacity: 0.6;
+}
+
+@media screen and (min-width:991px) {
+    .swiper-slide img {
+        width: 180px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .swiper-slide img {
+        width: 150px;
+    }
+}

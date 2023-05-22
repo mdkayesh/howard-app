@@ -1,0 +1,37 @@
+article.blog-item {
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-top: 30px;
+}
+
+article.blog-item h4 a {
+    display: block;
+    color: #1A1200;
+    margin-bottom: 20px;
+}
+
+article.blog-item .author {
+    display: flex;
+    align-items: center;
+}
+
+article.blog-item .img {
+    overflow: hidden;
+}
+
+article.blog-item .img img {
+    transition: 0.4s;
+}
+
+article.blog-item .author img {
+    width: 70px;
+    padding-right: 10px;
+}
+
+article.blog-item .author div {
+    margin-left: 15px;
+}
+
+article.blog-item:hover .img img {
+    transform: scale(1.2);
+}

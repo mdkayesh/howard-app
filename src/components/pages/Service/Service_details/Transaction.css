@@ -1,0 +1,23 @@
+div.transaction {
+    padding: 100px 0;
+}
+
+div.transaction h3 {
+    padding-right: 19%;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    color: #1750b0;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+div.transaction h3::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    background-color: #1750b0;
+    width: 150px;
+}

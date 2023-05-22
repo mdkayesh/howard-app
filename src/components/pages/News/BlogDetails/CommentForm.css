@@ -1,0 +1,34 @@
+div.comment-form form {
+    margin: 20px 0px;
+}
+
+div.comment-form input,
+textarea {
+    width: 100%;
+    margin-bottom: 3rem;
+    border: none;
+    border-bottom: 1px solid #eee;
+    color: #4b4b4b;
+    outline: none;
+    padding: 10px 0;
+}
+
+div.comment-form input[type='submit'] {
+    display: inline-block;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    background-color: #1851b3;
+    color: #fff;
+    border: none;
+    transition: 0.5s ease;
+}
+
+div.comment-form input[type='submit']:hover {
+    background-color: var(--color-yallow);
+
+}

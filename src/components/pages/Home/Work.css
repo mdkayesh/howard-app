@@ -1,0 +1,14 @@
+section.work h1 {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+section.work h5 {
+    margin-bottom: 22px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+section.work p {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,9 @@
+section.dg-service {
+    padding: 0 0 100px;
+}
+
+section.dg-service h2 {
+    color: #1752b3;
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}

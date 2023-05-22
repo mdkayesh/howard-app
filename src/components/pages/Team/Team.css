@@ -1,0 +1,53 @@
+section.team .team-title .img {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+section.team .team-members .member {
+    margin: 50px 25px 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+}
+
+section.team .team-members .team-content {
+    padding-top: 15px;
+    text-align: center;
+}
+
+section.team .team-members .team-content h4 a {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: var(--text-color);
+    transition: 0.5s ease;
+}
+
+section.team .team-members .team-content h4 a:hover {
+    color: var(--color-yallow);
+}
+
+section.team .team-members .team-content p {
+    font-size: 18px;
+    margin-top: 0;
+    line-height: normal;
+}
+
+section.team .team-members .contact-info {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+section.team .team-members .contact-info a {
+    color: #7d7c79;
+    display: inline-block;
+    transition: 0.3 ease;
+}
+
+section.team .team-members .contact-info a:not(:last-child) {
+    margin-right: 15px;
+}
+
+section.team .team-members .contact-info a:hover {
+    color: var(--color-yallow);
+}

@@ -1,0 +1,95 @@
+section.wallet .about-wallet {
+    padding: 100px 0;
+}
+
+section.wallet .about-wallet h2 {
+    color: #1750b0;
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+section.wallet .about-wallet h2::after {
+    content: '';
+    height: 2px;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #1750b0;
+}
+
+/* wallet feature css style*/
+
+section.wallet .feature-container {
+    background-color: #E3F8FF;
+    padding: 40px 0;
+}
+
+section.wallet .wallet-feature .feature-item {
+    display: flex;
+    padding: 30px 0;
+    align-items: baseline;
+    width: 70%;
+}
+
+section.wallet .wallet-feature .feature-item h2 {
+    font-size: 27px;
+    color: #1750b0;
+}
+
+section.wallet .wallet-feature .feature-item p {
+    font-size: 15px;
+}
+
+
+section.wallet .wallet-feature .feature-item .icon {
+    width: 100px;
+}
+
+
+section.wallet .wallet-feature .feature-item .content {
+    padding-left: 25px;
+}
+
+/* get currency style css */
+
+div.get-currency .currency-form {
+    padding: 100px 0;
+}
+
+div.get-currency .currency-form h2 {
+    color: #1750b0;
+    margin-bottom: 38px;
+    font-size: 27px;
+}
+
+div.get-currency .currency-form form label {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #1750b0;
+}
+
+div.get-currency .currency-form form input:not(input[type='submit']) {
+    padding: 7px 15px;
+    outline: none;
+    border: 1px solid #d6e3fa;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    section.wallet .wallet-feature .feature-item .icon {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.wallet .wallet-feature .feature-item .icon {
+        width: 50px;
+    }
+}

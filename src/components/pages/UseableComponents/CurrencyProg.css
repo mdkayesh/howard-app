@@ -1,0 +1,20 @@
+div.currency-prog {
+    padding: 100px 0;
+}
+
+div.currency-prog h1 {
+    color: #1752b3;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+div.currency-prog h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background-color: #1752b3;
+    width: 120px;
+}

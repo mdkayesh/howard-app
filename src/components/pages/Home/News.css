@@ -1,0 +1,28 @@
+section.news .newsItem {
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+section.news .content {
+    padding: 20px 17px;
+    color: #1a1200;
+}
+
+section.news .content ul {
+    padding: 0;
+    display: flex;
+}
+
+section.news .content ul li {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+section.news .content h4 a {
+    color: var(--color-heading-1);
+    font-size: 21px;
+    transition: 0.3s;
+}
+
+section.news .content h4 a:hover {
+    color: var(--color-yallow);
+}

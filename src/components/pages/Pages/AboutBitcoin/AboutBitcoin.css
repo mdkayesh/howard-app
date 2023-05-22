@@ -1,0 +1,171 @@
+.about-bitcoin .market-data {
+    padding-bottom: 140px;
+}
+
+.about-bitcoin .market-title {
+    padding: 120px 0;
+}
+
+.about-bitcoin .market-title h1 {
+    color: rgb(24, 85, 183);
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+div.market-tab .market-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+div.market-tab .select select,
+div.market-nav .nav-item a {
+    height: 57px;
+    line-height: 57px;
+    background-color: #1752b4;
+    font-size: 16px;
+    color: white;
+    padding: 0 40px;
+    display: block
+}
+
+div.market-tab .select select option {
+    background-color: white;
+    color: black;
+}
+
+div.market-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.market-nav .nav-item a {
+    border: 1px solid #729fec;
+}
+
+div.market-nav .nav-item a.active,
+div.market-nav .nav-item a:hover {
+    background-color: #729fec;
+}
+
+div.tab-pane .img {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+div.tab-pane .img.active {
+    opacity: 1;
+}
+
+/* tickets style css */
+
+div.about-bitcoin .tickets {
+    background-color: #001232;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+div.about-bitcoin .right-border {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+div.about-bitcoin .right-border:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+div.about-bitcoin .ticket-item {
+    color: white;
+    padding: 60px 10px;
+}
+
+div.about-bitcoin .ticket-item::before {
+    position: absolute;
+    content: '';
+    background-color: #000d25;
+    width: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+    transition: 0.5s ease-in-out;
+}
+
+div.about-bitcoin .ticket-item:hover::before {
+    width: 100%;
+}
+
+div.about-bitcoin .ticket-item h6 {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
+
+div.about-bitcoin .ticket-item p {
+    color: white;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+div.about-bitcoin .ticket-item span {
+    font-size: 30px;
+    display: block;
+    margin-top: 18px;
+    font-weight: 700;
+}
+
+/* matket table css style*/
+div.market-table {
+    margin: 100px 0;
+    overflow-x: auto;
+}
+
+div.market-table table {
+    width: 100%;
+    text-align: center;
+    overflow-x: auto;
+}
+
+div.market-table thead tr {
+    background-color: #001232;
+}
+
+div.market-table thead th {
+    padding: 20px 30px;
+    color: #fff;
+    border-right: 1px solid #1752b4;
+}
+
+div.market-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+div.market-table tbody td {
+    padding: 30px;
+    font-size: 15px;
+    color: #001232;
+    border: 0;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+    div.market-tab .market-filter {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:571px) {
+    div.about-bitcoin .right-border {
+        border: none;
+    }
+
+    div.market-nav .nav-item a {
+        padding: 0 30px;
+    }
+}

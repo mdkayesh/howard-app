@@ -1,0 +1,46 @@
+div.bradcaump {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/bg.jpg);
+    background-size: 105% 100%;
+    background-position: center center;
+    background-repeat: repeat;
+    height: 600px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+div.bradcaump h1 {
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+div.bradcaump nav a,
+div.bradcaump nav span {
+    color: white;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+
+div.bradcaump nav a:hover,
+div.bradcaump nav span:hover {
+    color: var(--color-yallow);
+}
+
+@media only screen and (max-width:768px) {
+
+    div.bradcaump h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    div.bradcaump h1 {
+        font-size: 30px;
+    }
+}

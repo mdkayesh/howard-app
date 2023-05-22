@@ -1,0 +1,28 @@
+section.process {
+    text-align: center;
+}
+
+section.process h1 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+section.process .img {
+    width: 100px;
+    margin: auto;
+}
+
+section.process h4 a {
+    color: #001232;
+    font-size: 19px;
+    transition: 0.4s ease-in-out;
+}
+
+section.process h4 a:hover {
+    color: var(--color-yallow);
+
+}
+
+section.process .content {
+    padding-top: 25px
+}

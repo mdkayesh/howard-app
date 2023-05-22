@@ -1,0 +1,33 @@
+div.video-area {
+    background: url(../News/NewsImg/video.jpg);
+    padding: 120px 0;
+    text-align: center;
+}
+
+div.video-area h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+div.video-area p {
+    color: white;
+    margin-bottom: 40px;
+}
+
+div.video-area .play-btn {
+    display: inline-block;
+}
+
+div.video-area .play-btn button {
+    border: none;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    text-transform: uppercase;
+    background: none;
+    color: white;
+}
+
+div.video-area .play-btn button img {
+    margin-right: 15px;
+}

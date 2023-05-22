@@ -1,0 +1,47 @@
+div.commentItem {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+div.commentItem .img {
+    border-radius: 50%;
+    overflow: hidden;
+    flex-basis: 300px;
+}
+
+
+div.commentItem .content {
+    margin-left: 20px;
+
+}
+
+div.commentItem .content h4 {
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+div.commentItem .content .comment-action span {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+div.commentItem .content .reply-btn {
+    font-family: Oswald;
+    font-size: 14px;
+    float: right;
+    transition: 0.4s;
+    border: none;
+    background: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+div.commentItem .content .reply-btn:hover {
+    color: var(--color-yallow);
+}

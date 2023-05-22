@@ -1,0 +1,45 @@
+section.counter {
+    background: url('./homeImg/bg2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.counter .item:hover h2::after {
+    width: 40px;
+
+}
+
+section.counter h2 {
+    position: relative;
+    color: white;
+    font-weight: 600;
+
+}
+
+section.counter h2::after {
+    content: '';
+    background-color: var(--color-yallow);
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s ease;
+}
+
+section.counter p {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width:992px) {
+    section.counter p {
+
+        font-size: 40px;
+
+    }
+}

@@ -1,0 +1,101 @@
+div.login-register {
+    padding: 100px 0;
+}
+
+div.login-register .account-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+div.login-register .account-nav .nav-item a {
+    display: block;
+    color: #a3a3a3;
+    font-size: 30px;
+    padding: 25px 30px;
+    text-transform: capitalize;
+}
+
+div.login-register .account-nav .nav-item.active a,
+div.login-register .account-nav .nav-item a:hover {
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+
+div.login-register .account-nav .nav-item {
+    position: relative;
+    flex-basis: 50%;
+}
+
+div.login-register .account-nav .nav-item:after {
+    content: '';
+    height: 2px;
+    background-color: #a3a3a3;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+div.login-register .account-nav .nav-item.active::after {
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+
+/* login-form style css */
+
+div.login-form,
+div.register-form {
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+div.login-form.active,
+div.register-form.active {
+    opacity: 1;
+}
+
+div.login-form label,
+div.register-form label {
+    margin-bottom: 15px;
+    width: 100%;
+    color: black;
+    font-size: 17px;
+}
+
+div.login-form input,
+div.register-form input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+div.login-register .forget-pass {
+    color: #333;
+    text-align: right;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+div.login-register .login-btn,
+div.login-register .register-btn {
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    font-size: 19px;
+    background-color: #002556;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+}
+
+div.login-register .login-btn:hover,
+div.login-register .register-btn:hover {
+    background-color: var(--color-yallow);
+}

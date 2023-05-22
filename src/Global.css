@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Source+Sans+Pro:300,400,400i,600,600i,700&display=swap");
+
+:root {
+    --text-color: #1a1200;
+    --color-light: #999999;
+    --color-dark: #333333;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-yallow: #F7A901;
+    --color-heading-1: #001232;
+    --btn-color: #181818;
+
+    /* background-Color */
+
+    --bg-light: #999999;
+    --bg-dark: #333333;
+    --bg-black: #000000;
+    --bg-white: #FFFFFF;
+    --bg-color-1: #FAFAFA;
+    --bg-color-2: #0B0801;
+    --bg-color-3: #F9F9F9;
+    --bg-color-4: #001232;
+    --bg-color-5: #F7A901;
+}
+
+html,
+body {
+    scroll-behavior: auto !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+section {
+    padding: 120px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #001232;
+    font-weight: 700;
+}

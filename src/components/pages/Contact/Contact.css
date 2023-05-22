@@ -1,0 +1,17 @@
+div.contact-form form input:not(input[type='submit']),
+div.contact-form form textarea {
+    width: 100%;
+    padding: 6px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #97b4e5;
+    border-radius: 5px;
+    outline: none;
+}
+
+div.contact-form form label {
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #03193d;
+    text-transform: uppercase;
+}

@@ -1,0 +1,35 @@
+.hero-area {
+    background: url('./homeImg/bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--color-white);
+    height: 700px;
+    position: relative;
+}
+
+.hero-area h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .hero-area h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .hero-area h1 {
+        font-size: 27px;
+    }
+}
+
+.hero-area p {
+    color: var(--color-white);
+}
